@@ -4,7 +4,7 @@ public class FoodProducer extends Thread{
 
     FoodBank bank;
 
-    FoodProducer(FoodBank bank) {
+    public FoodProducer(FoodBank bank) {
         this.bank = bank; //Initialize FoodProducer
     }
     @Override

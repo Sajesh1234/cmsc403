@@ -4,7 +4,7 @@ public class FoodConsumer extends Thread{
 
     FoodBank bank;
 
-    FoodConsumer(FoodBank bank) {
+    public FoodConsumer(FoodBank bank) {
         this.bank = bank; //Initialize FoodProducer
     }
 
